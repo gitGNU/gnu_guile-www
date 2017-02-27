@@ -24,7 +24,8 @@
             mime-types<-extension
             select-extensions)
   #:autoload (ice-9 rdelim) (read-line)
-  #:autoload (srfi srfi-13) (string-tokenize)
+  #:autoload (srfi srfi-13) (string-tokenize
+                             string-index)
   #:autoload (srfi srfi-14) (char-set char-set-complement))
 
 (define MT #f)                          ; data

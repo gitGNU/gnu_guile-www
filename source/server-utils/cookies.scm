@@ -27,6 +27,7 @@
   #:use-module ((srfi srfi-13) #:select ((substring/shared . subs)
                                          string-tokenize
                                          string-trim-both
+                                         string-index
                                          string-take
                                          string-drop))
   #:use-module ((srfi srfi-14) #:select (char-set-complement
